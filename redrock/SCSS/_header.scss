@@ -1,0 +1,95 @@
+.header {
+    position: relative;
+
+    //background: linear-gradient(90deg, rgba(36, 28, 99, 1) 0%, rgba(36, 28, 99, 1) 35%, rgba(5, 6, 34, 1) 100%);
+
+
+    &_container {}
+
+    &_body {
+        height     : 124px;
+        align-items: center;
+    }
+
+    &_navigation {
+        height         : 124px;
+        display        : flex;
+        align-items    : center;
+        justify-content: space-between;
+
+        @media(max-width:532px) {
+            justify-content: center;
+            align-items    : center;
+        }
+
+        @media(max-width:356px) {
+
+            text-align     : center;
+            flex-direction : column;
+            justify-content: center;
+        }
+    }
+
+    &_logo {
+        font-weight: 800;
+        font-size  : 25px;
+        line-height: 32px;
+        color      : #FFFFFF;
+
+        span {
+            color:
+                rgba(24, 186, 255, 1);
+        }
+
+        @media(max-width:532px) {
+            display: none;
+        }
+    }
+
+    &_buttons {
+        font-weight  : 800;
+        font-size    : 14px;
+        border-radius: 5px;
+    }
+
+    .telegram {
+
+        display         : inline-block;
+        color           : #FFFFFF;
+        padding         : 13px 20px;
+        background-color: #564FFF;
+        border          : 1px solid #564FFF;
+        border-radius   : 5px;
+        transition      : all .2s;
+        margin-right    : 19px;
+
+        @media(any-hover:hover) {
+            &:hover {
+                background-color: #15134C;
+                border          : 1px solid #564FFF;
+            }
+        }
+
+        @media(max-width:356px) {
+            margin-right : 0px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .log {
+        padding         : 13px 20px;
+        display         : inline-block;
+        background-color: #15134C;
+        border          : 1px solid #564FFF;
+        border-radius   : 5px;
+        color           : #FFFFFF;
+
+        @media(any-hover:hover) {
+            &:hover {
+                background-color: #564FFF;
+                border          : 1px solid #564FFF;
+            }
+        }
+    }
+}

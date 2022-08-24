@@ -1,0 +1,51 @@
+.benefits {
+
+
+
+    &_container {}
+
+    &_body {
+        display        : flex;
+        gap            : 26px;
+        justify-content: space-evenly;
+        flex-wrap      : wrap;
+    }
+
+    &_block {
+
+        background: linear-gradient(180deg, #1E2242 27.07%, rgba(30, 34, 66, 0) 100%);
+        width     : 425px;
+    }
+}
+
+.block-benefits {
+    padding : 54px 55px 59px 35px;
+    position: relative;
+
+    &_inform {
+        max-width: 340px;
+    }
+
+    &_icon {
+        position: absolute;
+        top     : -32px;
+        left    : 32px;
+        right   : 0;
+    }
+
+    &_title {
+        margin-bottom: 11px;
+        font-weight  : 800;
+        font-size    : 24px;
+        line-height  : 31px;
+        color        : #FFFFFF;
+    }
+
+    &_text {
+        font-weight: 500;
+        font-size  : 14px;
+        line-height: 17px;
+    }
+}
+
+.text {}

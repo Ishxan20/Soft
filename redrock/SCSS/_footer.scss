@@ -1,0 +1,32 @@
+.footer {
+    background: linear-gradient(180deg, #0D0F2C 10%, rgba(13, 15, 44, 1) 50%);
+    margin-top: -3px;
+
+    &_container {}
+
+    &_body {
+        text-align: center;
+    }
+
+    &_button {
+        padding      : 13px 23px;
+        font-size    : 14px;
+        cursor       : pointer;
+        margin-top   : clamp(1.875rem, 0.667rem + 6.04vw, 5.938rem);
+        margin-bottom: clamp(0.938rem, 0.529rem + 2.04vw, 2.313rem);
+    }
+
+    &_card {
+        display        : flex;
+        justify-content: center;
+        gap            : 33px;
+        margin-bottom  : 22px;
+    }
+
+    &_coperight {
+        max-width: 342px;
+
+        margin       : 0 auto;
+        margin-bottom: 54px;
+    }
+}

@@ -1,0 +1,126 @@
+@import "_header";
+@import "_reset";
+@import "_hero";
+@import "_benefits";
+@import "_platform";
+@import "_tariffs";
+@import "_accordion";
+@import "_footer";
+@import "_login";
+@import "_popup";
+
+
+*img {
+    max-width: 100%;
+}
+
+/*
+:root {
+    --bg-color    : #121B25;
+    --accent-color: #15786C;
+    --text-collor : #D6D6D6;
+}
+*/
+body {
+    height     : 100%;
+    font-family: 'TTInterfaces', sans-serif;
+    color      : #fff;
+}
+
+[class*="_container"] {
+    max-width: 1396px;
+    margin   : 0 auto;
+    padding  : 0 15px;
+}
+
+.wrapper {
+    min-height    : 100%;
+    display       : flex;
+    flex-direction: column;
+}
+
+.page {
+    flex      : 1 1 auto;
+    background: linear-gradient(180deg, #0D0F2C 10%, rgba(13, 15, 44, 1) 50%);
+
+}
+
+/****************************Общие классы*********/
+
+.linear {
+    background-image: url(//img/hero/bc.png) center center no-repeat;
+    background      : linear-gradient(90deg, rgba(36, 28, 99, 1) 0%, rgba(36, 28, 99, 1) 35%, rgba(5, 6, 34, 1) 100%);
+}
+
+h1 {
+    text-align : center;
+    font-weight: 800;
+    font-size  : clamp(1.438rem, 1.196rem + 1.21vw, 2.25rem);
+
+    color        : #FFFFFF;
+    margin-bottom: 54px;
+}
+
+.text {
+    font-weight: 500;
+    font-size  : clamp(0.813rem, 0.757rem + 0.28vw, 1rem);
+    line-height: 20px;
+
+    color: #A7A7C8;
+}
+
+.title-item {
+
+    &_item {
+        margin-bottom: 30px;
+        align-self   : stretch;
+    }
+
+    &_link {
+        @media(max-width:509px) {
+            font-size: 13px;
+        }
+    }
+}
+
+.btn {
+    border     : 1px solid #564FFF;
+    transition : all .2s;
+    align-items: center;
+
+
+    @media(any-hover:hover) {
+        &:hover {
+            background-color: #15134C;
+
+        }
+    }
+}
+
+.yellow {
+    color: #FFB800;
+}
+
+.red {
+    color: #FF2929;
+}
+
+/***********************************header***************************/
+
+
+/************************************HERO******************************/
+
+
+/*--------------------/Hero--------------------*/
+
+/*--------------------Filter--------------------*/
+
+
+
+/**************featured***************************/
+
+
+/************slide**************************/
+
+
+/***********************************WHY*/

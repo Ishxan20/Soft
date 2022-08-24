@@ -1,0 +1,110 @@
+.registration-wrapper {
+    height       : 100%;
+    background   : linear-gradient(180deg, #1E2242 27.07%, rgba(30, 34, 66, 0) 100%);
+    filter       : drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.11));
+    border-radius: 15px;
+    max-width    : 760px;
+    margin       : clamp(3.75rem, 2.077rem + 8.36vw, 9.375rem) auto;
+
+}
+
+.footer2 {
+    @media(min-width:767px) {
+        display: none;
+    }
+}
+
+.reg-log {
+    padding-top  : 64px;
+    margin-bottom: 10px;
+}
+
+.registration {
+
+    &_link {
+        display                : inline-block;
+        background             : linear-gradient(93.1deg, #4FC0FF 74.23%, #564FFF 103.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip        : text;
+        text-fill-color        : transparent;
+        margin-left            : 5px;
+    }
+
+    &_container {}
+
+    &_body {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    &_bottom {
+        text-align   : center;
+        font-weight  : 800;
+        font-size    : clamp(1.625rem, 1.439rem + 0.93vw, 2.25rem);
+        line-height  : 26px;
+        margin-bottom: clamp(1.938rem, -0.237rem + 10.87vw, 9.25rem);
+        color        : #FFFFFF;
+    }
+}
+
+.linear {}
+
+.registration-block {}
+
+.block-reg {
+    display       : flex;
+    flex-direction: column;
+
+
+    &_input-input {}
+
+    &_button {}
+}
+
+.signup-text-input {
+    padding-left : 28px;
+    padding-right: 28px;
+    width        : clamp(15rem, 9.238rem + 28.81vw, 34.375rem);
+    height       : 73px;
+    display      : flex;
+    color        : #FFFFFF;
+    background   : rgba(86, 79, 255, 0.15);
+    border       : 1px solid #564FFF;
+    border-radius: 5px;
+    margin       : 32px auto;
+
+    text-overflow: ellipsis;
+
+    &::placeholder {
+        display      : flex;
+        font-weight  : 600;
+        font-size    : 14px;
+        line-height  : 18px;
+        color        : #FFFFFF;
+        text-overflow: ellipsis;
+
+    }
+
+}
+
+input[type=text]:focus {
+
+    border-color: rgb(13, 179, 137);
+    // and any other style
+}
+
+.contacts {
+
+    &_info {}
+}
+
+.registration-contact {
+    display       : flex;
+    flex-direction: column;
+}
+
+.reg-btn {
+    margin-bottom: 29px;
+}
